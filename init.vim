@@ -110,3 +110,7 @@ nnoremap L <C-w>l
 " End Vim Base Setting Scripts------------------
 
 
+
+" ROS Setting Scripts------------------
+autocmd BufRead,BufNewFile *.launch set filetype=xml
+" End ROS Setting Scripts------------------<Paste>
