@@ -1,2 +1,13 @@
 [[plugins]]
 repo = "Shougo/dein.vim"
+
+[[plugins]] # カーソル位置コンテキストに合わせてftを切り替える
+repo = "osyo-manga/vim-precious"
+depends = ["context_filetype.vim"]
+
+[[plugins]] # カーソル位置のコンテキストのftを判定する
+repo = "Shougo/context_filetype.vim"
+
+[[plugins]] # toml syntax
+repo = "cespare/vim-toml"
+on_ft = "toml"
