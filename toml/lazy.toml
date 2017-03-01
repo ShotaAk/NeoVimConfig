@@ -18,3 +18,7 @@ hook_source = '''
     " <S-TAB>: completion back.
     inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<C-h>"
 '''
+
+[[plugins]] # deoplete source for jedi
+repo = 'zchee/deoplete-jedi'
+on_ft = 'python'
