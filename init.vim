@@ -95,6 +95,12 @@ set softtabstop=4 " 連続した空白に対してタブキーやバックスペ
 set autoindent    " 改行時に前の行のインデントを継続する
 set smartindent   " 改行時に入力された行の末尾に合わせて次の行のインデントを増
 
+" ファイルタイプごとにタブ幅設定
+augroup fileTypeIndent
+    autocmd!
+    autocmd BufNewFile,BufRead *.xml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+augroup END
+
 " OSのクリップボードをレジスタ指定無しで Yank, Put 出来るようにする
 set clipboard=unnamed,unnamedplus
 " マウスの入力を受け付ける
