@@ -119,4 +119,5 @@ nnoremap L <C-w>l
 
 " ROS Setting Scripts------------------
 autocmd BufRead,BufNewFile *.launch set filetype=xml
+autocmd BufRead,BufNewFile *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 " End ROS Setting Scripts------------------<Paste>
