@@ -1,7 +1,7 @@
 # NeoVimConfig
 
 ## Installation
-1. Run below commands
+- Run below commands
 
 ```zsh
 $ mkdir ~/.config/nvim
@@ -17,7 +17,7 @@ $ git submodule init
 $ git submodule update
 ```
 
-1. Open vim and Run below commands
+- Open vim and Run below commands
 ```vim
 " Install dein
 :call dein#install()
