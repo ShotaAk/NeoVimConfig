@@ -23,6 +23,15 @@ hook_source = '''
 repo = 'zchee/deoplete-jedi'
 on_ft = 'python'
 
+[[plugins]] # deoplete source for c, cpp
+repo = 'zchee/deoplete-clang'
+on_ft = ['c', 'cpp']
+depends = 'deoplete.nvim'
+hook_source = '''
+    let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-3.8/lib/libclang.so.1'
+    let g:deoplete#sources#clang#clang_header = '/usr/include/clang'
+'''
+
 [[plugins]]
 repo ='kannokanno/previm'
 on_ft = 'markdown'
