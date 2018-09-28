@@ -3,12 +3,21 @@
 ## Installation
 - Run below commands
 
-# for deoplete installation
+### for deoplete installation
+``` zsh
 $ sudo pip2 install --upgrade neovim
 $ sudo pip3 install --upgrade neovim
+```
 
-# for deoplete-clang
+### for deoplete-clang
+```zsh
 $ sudo apt install clang
+```
+
+#### for deoplete-ternjs
+```zsh
+$ sudo npm install -g tern
+```
 
 ```zsh
 $ mkdir ~/.config/nvim
