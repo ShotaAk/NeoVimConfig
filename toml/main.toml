@@ -25,3 +25,9 @@ hook_add = '''
     nmap <Leader>c <Plug>(caw:hatpos:toggle)
     vmap <Leader>c <Plug>(caw:hatpos:toggle)
 '''
+
+[[plugins]] # 括弧が虹色になるアレ
+repo = 'luochen1990/rainbow'
+hook_add = '''
+    let g:rainbow_active = 1
+'''
