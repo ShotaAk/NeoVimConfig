@@ -30,4 +30,7 @@ hook_add = '''
 repo = 'luochen1990/rainbow'
 hook_add = '''
     let g:rainbow_active = 1
+   	let g:rainbow_conf = {
+	\	'ctermfgs': ['red', 'brown', 'yellow', 'green', 'cyan', 'blue', 'magenta'],
+	\}
 '''
