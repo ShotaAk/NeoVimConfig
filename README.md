@@ -5,8 +5,8 @@
 
 ### for deoplete installation
 ``` zsh
-$ sudo pip2 install --upgrade neovim
-$ sudo pip3 install --upgrade neovim
+$ pip2 install --upgrade neovim
+$ pip3 install --upgrade neovim
 ```
 
 ### for deoplete-clang
