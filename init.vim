@@ -98,7 +98,8 @@ set smartindent   " 改行時に入力された行の末尾に合わせて次の
 " ファイルタイプごとにタブ幅設定
 augroup fileTypeIndent
     autocmd!
-    autocmd BufNewFile,BufRead *.xml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+    autocmd BufNewFile,BufRead *.launch setlocal tabstop=2 shiftwidth=2 softtabstop=2
+    autocmd BufNewFile,BufRead *.test setlocal tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
 " OSのクリップボードをレジスタ指定無しで Yank, Put 出来るようにする
