@@ -11,7 +11,7 @@ $ pip3 install --upgrade neovim
 
 ### for deoplete-clang
 ```zsh
-$ sudo apt install clang
+$ sudo apt install libclang-8-dev
 ```
 
 #### for deoplete-ternjs

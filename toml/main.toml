@@ -34,3 +34,10 @@ hook_add = '''
 	\	'ctermfgs': ['red', 'brown', 'yellow', 'green', 'cyan', 'blue', 'magenta'],
 	\}
 '''
+
+[[plugins]] # ｸｲｯｸﾗﾝ
+repo = 'thinca/vim-quickrun'
+
+
+[[plugins]] # バイナリエディタ
+repo = 'Shougo/vinarise'
