@@ -102,6 +102,7 @@ augroup fileTypeIndent
     autocmd BufNewFile,BufRead *.test setlocal tabstop=2 shiftwidth=2 softtabstop=2
     autocmd BufNewFile,BufRead *.xml setlocal tabstop=2 shiftwidth=2 softtabstop=2
     autocmd BufNewFile,BufRead *.yml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+    autocmd BufNewFile,BufRead *.textlintrc setlocal tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
 " OSのクリップボードをレジスタ指定無しで Yank, Put 出来るようにする
