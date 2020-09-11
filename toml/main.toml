@@ -35,8 +35,8 @@ hook_add = '''
 	\}
 '''
 
-[[plugins]] # ｸｲｯｸﾗﾝ
-repo = 'thinca/vim-quickrun'
+# [[plugins]] # ｸｲｯｸﾗﾝ
+# repo = 'thinca/vim-quickrun'
 
 
 [[plugins]] # バイナリエディタ
